@@ -22,4 +22,8 @@ $app->get('/', function() use($app) {
   return $app['twig']->render('index.twig');
 });
 
+$app->get('/cowsay2', function() use($app) {
+  return "<h1>Feature 1</h1>";
+});
+
 $app->run();
