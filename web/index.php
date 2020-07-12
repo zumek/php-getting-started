@@ -26,4 +26,8 @@ $app->get('/cowsay2', function() use($app) {
   return "<h1>Feature 1</h1>";
 });
 
+$app->get('/cowsay3', function() use($app) {
+  return "<h1>Feature 2</h1>";
+});
+
 $app->run();
